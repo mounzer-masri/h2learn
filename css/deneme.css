@@ -1,0 +1,130 @@
+.card-div {
+  margin-top: 2vh;
+}
+
+.card-div .card1 {
+  z-index: 2;
+  position: relative;
+  width: 20vw;
+  height: 17vh;
+  background-color: #fff;
+  overflow: hidden;
+  margin: 20px;
+}
+
+.card-div .card1 .fa-arrow-right {
+  z-index: 0;
+  color: white;
+  position: absolute;
+  right: 15%;
+  bottom: 6%;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+.card-div .card1 h2 {
+  z-index: 2;
+  font-family: "Poppins", sans-serif;
+  text-shadow: 3px 3px black;
+  position: absolute;
+  bottom: 0;
+  right: 35%;
+  font-size: 35px;
+  color: white;
+}
+
+.card-div .card1::before {
+  z-index: 2;
+  content: "";
+  position: absolute;
+  top: -15px;
+  left: 32px;
+  width: 26px;
+  height: 26px;
+  border-radius: 18px;
+  background-color: #e6e5e1;
+}
+
+.card-div .card1::after {
+  z-index: 2;
+  content: "";
+  position: absolute;
+  bottom: -15px;
+  left: 32px;
+  width: 26px;
+  height: 26px;
+  border-radius: 18px;
+  background-color: #e6e5e1;
+}
+
+.card-div .card1 ul {
+  position: absolute;
+  left: 3px;
+  top: 1px;
+  list-style-type: none;
+}
+.card-div .card1 ul li {
+  width: 5px;
+  height: 5px;
+  border-radius: 2px;
+  margin: 6px 0;
+  background-color: #e6e5e1;
+}
+
+.card-div .card1 p {
+  z-index: 2;
+  position: absolute;
+  top: 20px;
+  right: 3vw;
+  color: #333;
+  opacity: 0.7;
+  font-size: 12px;
+  letter-spacing: 1px;
+  writing-mode: vertical-lr;
+  -webkit-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+.card-div .card1 button {
+  position: absolute;
+  right: 14px;
+  bottom: 14px;
+  width: 30px;
+  height: 30px;
+  outline: 0;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  transition: all 0.3s;
+  mix-blend-mode: hard-light;
+}
+
+.card-div .card1 .pic1 {
+  width: 15vw;
+  height: 17vh;
+  background-size: 100% 100%;
+  filter: grayscale(100%);
+}
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-div .card1:hover button {
+  transform: scale(16.5);
+}
+.card-div .card1:hover p {
+  color: #fff;
+}
+.card-div .card1:hover .pic1 {
+  filter: grayscale(0);
+}
+
+.card-div .card1:hover .fa-arrow-right {
+  color: white;
+}
+.card-div:hover .fa-arrow-right {
+  z-index: 3;
+}
+
+.dia:hover {
+  background-color: blue;
+}

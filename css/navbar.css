@@ -1,0 +1,17 @@
+.navb {
+  width: 101%;
+  height: 11vh;
+  position: fixed;
+  z-index: 2;
+  box-shadow: -10px 1px 12px;
+}
+
+.button {
+  float: right;
+  margin: 17px 10px;
+}
+.slogan {
+  font-size: x-large;
+  text-align: center;
+  color: gainsboro;
+}
